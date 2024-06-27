@@ -4,5 +4,5 @@
   entry: cli-command
   language: python
   types: [python]
-  stages: [pre-commit, pre-merge-commit, manual]
+  stages: [commit, merge-commit, manual]
   pass_filenames: false
