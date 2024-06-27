@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "djlint-hook"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Sena <felipesena.m@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[project.scripts]
+cli-command = "hooks.cli_command:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

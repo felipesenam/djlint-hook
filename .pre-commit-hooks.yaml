@@ -1,0 +1,8 @@
+- id: cli-command
+  name: Execute `hamilton` CLI commands
+  description: This hook executes a command using the `hamilton` CLI.
+  entry: cli-command
+  language: python
+  types: [python]
+  stages: [pre-commit, pre-merge-commit, manual]
+  pass_filenames: false
